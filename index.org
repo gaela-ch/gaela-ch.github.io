@@ -1,0 +1,11 @@
+#+title: Index
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
+#+OPTIONS: num:nil
+
+
+
+* GAELA/CH
+- Súiomh pearsanta
+- á thógáil fós...
+
+[[file:oppositionalisms.org][oppositionalisms]]
