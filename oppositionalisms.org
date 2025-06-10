@@ -4,6 +4,9 @@
 :END:
 #+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
 #+OPTIONS: num:nil
+#+DATE: <2023-01-28 Sath>
+#+BEGIN_EXPORT html
+#+END_EXPORT
 
 [[https://web.archive.org/web/20230128090337mp_/https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe00ab1c-6bb5-4fd9-8c63-0e64f4f03ce3_681x371.jpeg]]
 
