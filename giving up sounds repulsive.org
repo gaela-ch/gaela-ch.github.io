@@ -1,0 +1,286 @@
+[[file:index.org][baile]]
+* "giving up sounds repulsive"
+:PROPERTIES:
+:CUSTOM_ID: giving-up-sounds-repulsive
+:END:
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
+#+OPTIONS: num:nil
+#+DATE: <2023-12-31>
+#+BEGIN_EXPORT html
+#+END_EXPORT
+
+** disrupting this silence (or, /"doing what the germans won't"/)
+:PROPERTIES:
+:CUSTOM_ID: disrupting-this-silence-or-doing-what-the-germans-wont
+:END:
+To have written 5,795 words this month without reference to the conflict
+in Gaza feels absurd. This US-sanctioned slaughter is hard not to
+constantly have on your mind, especially when doing anything else
+borders on feeling immoral. To not write about Gaza would fail to
+capture what is beautiful yet possible whether it stems from worldwide
+solidarity, young people willing to do the bare minimum, or a class flag
+proudly flying over Limerick. This absence would also fail to capture
+the springs of solidarity and hate spurred on by the Israeli Occupation,
+giving us new ways to confirm or deny our respective humanity. Escapism
+clears the room of anything better, even if that's just analysis. This
+Genocide will and should remain unavoidable, necessitating messier
+paragraphs.
+
+To write about Palestine is to reveal your place in the world, with
+nobody being truly neutral. Clear lines have once again developed
+between /'the West'/ and 'the Rest', a development reflected by media
+coverage and public discourse. In our case, the Free State government
+found itself wedged between /'West'/ and /'Wretched',/ lagging behind
+their metropolitan cousins in their attempts to downplay Palestinian
+solidarity. While ARD and ZDF in Germany are free to
+[[https://www.jungewelt.de/artikel/462874.berichterstattung-zum-gazakrieg-journalistische-bankrotterkl%C3%A4rung.html?sstr=ARD%7CHamas][adjust
+their coverage]] or insert bad takes into their equivalent to /'Match of
+the Day'/,
+[[https://twitter.com/RTE_PrimeTime/status/1712581729414738238][RTÉ are
+still letting the Zionists look bad on occasion]]. Decades of solidarity
+and struggle have forced Martin and company to be subtle, sending out
+vague calls for peace between attempts at placating the US and Israel.
+We've also seen sections of the far-right identifying with the Zionist
+state outright, with those claiming otherwise often being insecure about
+not being a settler. To not write about Palestine is to pretend that the
+Irish people are pathetic, doomed to implement themselves into the exact
+systems they once fought against.
+
+[[https://twitter.com/QuinlivanTD/status/1725892973454377433/photo/1]]
+
+However, writing about this Genocide is impossible without writing about
+everything else. We must disrupt and expose each silence that brought us
+here, openly stating the racist and colonial nature of the Israeli
+state. To place children in a cage is a statement, and to live in sweet
+ignorance of said statement is pathetic. Like all forms of colonialism,
+Zionism necessitates a perception of the Palestinian people as
+perpetually /"lesser"/, devaluing their literature and culture in order
+to justify rape and pillage. Palestine is never allowed to speak for
+herself, with each attempt being met with brutal violence. /"The most
+moral army in the world"/ doesn't offer vegan boots out of a love of
+animals, it just looks for any opportunity to depict Palestinians as
+being even lesser.
+
+The Irish people have stood strong in this struggle against
+dehumanisation, with our literature and language serving as an extended
+middle finger towards notions of a singular, "civilised" West. On
+account of our radical tradition, refusing to engage with Palestine's
+intellectual and political struggle for freedom is the ultimate form of
+abdication - making it very clear who actually places value in the words
+that they read, listen to, or learn. To write about Palestine is to
+care, and to care is to be free. This newsletter is actually about
+/'Gaza Writes Back',/ a collection of short stories edited by the late
+Refaat Alareer.
+
+** a tale we must all finish
+:PROPERTIES:
+:CUSTOM_ID: a-tale-we-must-all-finish
+:END:
+There's something utterly crushing in discovering an artist's true depth
+as their light starts to fade. These last few months have been awful in
+this regard, with the words of Shane MacGowan and Benjamin Zephaniah
+haunting a winter defined by death. Yet the sudden snuffing of Refaat
+Alareer's light and life cut deep, capturing the attention of the world.
+[[https://twitter.com/TomaiRua/status/1733871322474635280][Tomaí Ó
+Conghaile's thoughtful translation of /'Más éigean dom an bás'/ forced
+this train of thought to cohere]], making utterly clear which lights had
+been extinguished so cowardly. Refaat was now just a tale, one we must
+all finish.
+
+[[https://twitter.com/TomaiRua/status/1733871322474635280]]
+
+It's not enough to depict Refaat as /just/ a journalist, translator,
+scholar, or poet. It's certainly not enough to solely depict him through
+English either. Alareer's work expands on and blurs the lines between
+fiction and polemic - with his decision to write in English being
+pointed, yet deeply considered. Refaat is more than happy to use /an
+teanga iasachta/ inconveniently, mirroring Pearse and Hyde in his choice
+to polemicise /at/ instead of /with/ the English-reading public. This is
+most blatantly seen in the introduction to /'Gaza Strikes Back',/ with
+the project being rooted in the wider view that /"the notion of giving
+up, or surrendering to the occupation, [...] sounds quite repulsive"./
+Refaat refused to accept any supposed inferiority, with Israel viewing
+the innate humanity of his work as an existential threat.
+
+Within /'How Does She Stand',/ Pearse finds himself pondering the legacy
+left by Wolfe Tone. Central to Pearse's perception of Tone is /"an
+immense tenderness and charity",/ with Tone's final sacrifice reflecting
+a deep love for his people:
+
+#+begin_quote
+/Yes, this man could love well; and it was from such love as this that
+he exiled himself; which such love as this crushed in his faithful heart
+that he became a weary but indomitable ambassador to courts and camps,
+with the memory of such love as this, with the little hands of his
+children plucking at his heartstrings, that he lay down to die in that
+cell on Arbour Hill./
+
+#+end_quote
+
+/'Gaza Writes Back/' **is a literal labour of love, with each story
+fuelled by forms of passion and sacrifice that are totally foreign to
+those controlling the drones. Alareer and Tone were willing to face
+/"the high and sorrowful destiny of the heroes"/ not out of some
+barbaric irrationality, but instead, a level of love solely found
+amongst us 'barbarians'.
+
+** from beneath
+:PROPERTIES:
+:CUSTOM_ID: from-beneath
+:END:
+When reading about each writer that contributed towards /'Gaza Writes
+Back',/ the daily horrors inherent to Israel's occupation become clear.
+Authors are largely young and female, /"most if not all [...] have never
+been to other places in Palestine",/ and all face conditions that get in
+the way of their writing. As outlined in the collection's introduction:
+
+#+begin_quote
+The lengthy political, economic, and intellectual siege that Israel has
+maintained around Gaza meant that, as they worked on their stories, all
+of our writers --- like every single person living in Gaza --- had to
+cope with the constant and debilitating structural violence of power
+cuts, isolation, unemployment, lack of basic goods, lack of books, lack
+of medicine and access to health care, extreme difficulty in traveling
+outside Gaza, and far too often pain, death, or the loss of loved ones.
+
+#+end_quote
+
+While it's genuinely impressive that any form of writing was possible in
+such conditions, what makes /'Gaza Writes Back'/ worth reading is its
+depth, with deep levels of empathy and authenticity shaping each story.
+Our protagonists are almost constantly aware of those suffering,
+comparing their traumas with those worse off. This can be seen most
+blatantly in Rawan Yaghi's /'From Beneath'/, a story based around the
+bleak experience of bleeding to death following an Israeli airstrike.
+Despite everything, our protagonist finds himself wanting to help, even
+though he can't move a limb. This fundamental empathy fuels some of the
+best contributions towards this collection - with /'Neverland/' covering
+the experiences of a health worker who can't help but think about the
+children she treats, /‘House'/ discussing the morality of revenge, and
+/'Scars'/ depicting **the struggles of parenthood during under
+occupation. /'Gaza Writes Back'/ is an utterly /real/ book, with its
+depth contrasting heavily with the two-dimensional depiction of the
+Palestinian people the West occupies themselves with.
+
+One of the most intriguing examples of this book's empathy is Nour
+Al-Sousi's /'Canary'/, a piece that alternates perspectives between a
+resistance fighter and an IDF soldier. This choice of plot is
+particularly brave for the author considering how tripe previous
+attempts at tackling it have been, with authors on the outside falling
+into the same tropes over and over. However, this story actually works
+due to Al-Sousi's experiences, with there being something uniquely
+fascinating in seeing how someone depicts the life and thought process
+of someone totally opposed to her existence - especially when you
+consider the fact that most people growing up in Gaza have likely never
+met an Israeli without uniform. Al-Sousi does what professional writers
+in Israel seem unwilling to do, raising depressing questions.
+
+** disneyland, sapphora [...] and hotels with water parks
+:PROPERTIES:
+:CUSTOM_ID: disneyland-sapphora-and-hotels-with-water-parks
+:END:
+One of the most absurd aspects of colonialism is the extent to which
+those on the receiving end are stuck with the burden of conciliation,
+having to display a superhuman level of restraint to prove their
+humanity. In the same way that cultural colonisation forces our thoughts
+to be based around their occupiers, any discussion for a transition
+towards something new will always prioritise the interests of a
+colonising minority over everyone else. You can see this quite blatantly
+in discussions about reunification, with every aspect of our discourse
+solely being based around the whims of Unionists - even more so when
+they refuse to participate. A one-sided relationship develops, with
+those stuck on colonialism's receiving end being expected to bridge
+every divide they've had forced onto them.
+
+It's hard not to start reading /'Canary/' through this lens, with
+Al-Sousi's depiction of someone /"on the other side"/ contrasting
+heavily with the pure bile being posted by ardent Zionists. We've seen
+Israeli soldiers
+[[https://apnews.com/article/israel-hamas-soldiers-gaza-viral-videos-idf-072894147302535cc9632863888e53a4][burn
+food supplies]],
+[[https://twitter.com/MarwaEl94317678/status/1740410681353023896][crack
+jokes about Arab women being /"the sluttiest"/ while looking through
+personal belongings]], and
+[[https://twitter.com/incontextmedia/status/1730765626405249032][likely
+give themselves dysentery by playing with their shit in someone's
+house]]. This reflects a wider dehumanisation endemic to Israeli
+culture, with local influencers
+[[https://twitter.com/QudsNen/status/1717463837308227755][bragging about
+still having running water]] and
+[[https://www.tiktok.com/@fiaskill/video/7299196701850783022][looking
+forward to replacing the people of Gaza with /"Disneyland, Sapphora,
+[...] and hotels with water park"/]]. One set of young people are able
+to depict an Israeli despite years of distance, the other seems more
+intent on making crass TikToks and
+[[https://www.haaretz.com/israel-news/2023-12-28/ty-article/.premium/tel-aviv-high-school-principal-faces-suspension-for-sympathizing-with-suffering-of-gazans/0000018c-b09c-db94-afbd-b0fd76a80000][harassing
+teachers for seeing Palestinians as human]]. Those rambling on about
+/"both sides"/ or the abstract need for /"class unity"/ conveniantly
+fudge and ignore the extent of this hate, often on account of being
+culturally closer to those doing the settling. /"Both sides"/ have never
+been equal, with one expected to do all the work necessary to solve a
+problem they didn't start.
+
+This isn't to say that unity is impossible, but instead that it first
+requires some level of mutual understanding. However, this concept is
+anathema to the colonial logic behind Zionism, with attempts to
+/"civilise the civilised"/ generally going nowhere. Colonialism
+necessitates a division between the West and the Wretched, eventually
+leading to the dehumanisation and destruction of those unlucky enough to
+fall outside of the first category. Those supporting Israel's attacks on
+Gaza are unable to engage with the works of those like Refaat Alareer as
+they actively refuse to see them as human, and no short story or lecture
+could ever change that fact.
+
+However, it'd be wrong to isolate this bleak outlook to Israel. This
+devaluation of Palestinian lives is inherent to the ways in which the
+West reports on and conceives this conflict - with the deaths of
+thousands of Palestinians generally being seen as equally (if not less)
+important than one or two undergraduates in America feeling
+uncomfortable. While a country like Germany may wax lyrical about their
+/"Staatsräson",/ it's no coincidence that their ardent support for
+Israel comes hand in hand with dogwhistles about migrants. Reading about
+Israel is disgusting as they represent the core of the West, a core
+that's more than accustomed to killing stories, languages, and the
+writers themselves. Rather than being some evil abberation, those
+looking to raze down the Gaza strip for Disneyland are the closest thing
+that the West has to true believers.
+
+** to tie everything apart
+:PROPERTIES:
+:CUSTOM_ID: to-tie-everything-apart
+:END:
+While this may be a depressing note to end the year on, falling into
+sheer doomerism is even worse than just doing nothing. Despite years of
+struggle and insurmountable odds, the Palestinian people are still brave
+enough to survive and write out of spite. Some of the most beautiful
+passages in /'Gaza Writes Back'/ relate to this unceasing dedication to
+what Ó Cadhain terms as an /"illogcial striving for the impossible",/
+with anything beyond standing up being long out of the question:
+
+#+begin_quote
+/Between my father and his Land is an unbreakable bond. Between
+Palestinians and their land is an unbreakable bond. By uprooting plants
+and cutting trees continually, Israel tries to break that bond and
+impose its own rules of despair on Palestinians. By replanting their
+trees over and over again, Palestinians are rejecting Israel's rules.
+"My land, my rules," says Dad./
+
+#+end_quote
+
+We must learn from the dedication running through each page of this
+collection, being willing to create and take sacrifices /ar son na
+cúise./ We must reaffirm our deep solidarity with the people of
+Palestine, making it clear that the Irish nation stand in opposition to
+colonial plunder. We must continue learning to read, write, and think
+for ourselves - stepping out beyond the Anglosphere and engaging with
+more than just our deranged neighbours. We must live to tell Refaat's
+tale, ideally after Reconquest. /Athbhliain faoi mhaise daoibh go léir./
+
+*fuaimrian na seachtaine:* jane remover - kodak moment
+
+Beidh orm rud éigin a scríobh faoi Jane Remover san athbhliain, go
+háirithe agus í ag dul ó neart go neart le gairid. Tháinig mé ar Jane
+mar gheall ar /'Dariacore',/ an tionscadal leath-magúil agus ró-'ar
+líne' a bhí aici i rith na paindéime. Is léir domsa go bhfuil Jane duine
+de na ceoltóirí 'Iar-Covid' is tabhachtaí, rud a leiríonn an rian
+tochtmhar seo go paiteanta.

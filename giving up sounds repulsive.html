@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-06-10 Máirt 04:43 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Ciarán Mac Aodha Bhuí" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style type="text/css">
+/* Base */html,body {    background-color: #222;    min-height: 100%;    line-height: 1.5;}body {    color: #fafafa;    font-family: "Courier New";}::selection {    background-color:  #2ecc40;    color: white;}/* Responsive content positioning */@media only screen and (min-width: 1020px) /* Large screens */{    body{        padding: 10vh 25vw;    }}@media only screen and (max-width: 1020px) and (min-width: 750px) /* Small screens */{    body{        padding: 5vh 10vw;    }}@media only screen and (max-width: 750px) /* Small screens */{    body{        padding: 2vh 5vw;    }}/* Headers */h1{font-size: 2.5rem;}h2{font-size: 1.7rem;}h1 > .subtitle, h3, h4, h5, h6{font-size: 1.3rem;}.title{    margin-bottom: 2.5rem;}/* Padding & Margin */* {margin: 0; padding: 0;}pre, blockquote, ul, ol, p, table{    margin: 1rem 0;}h1, h2{margin-top: 2rem; line-height: 2rem;}h3, h4, h5, h6{margin-top: 1rem;}/* Links  */a, a:visited {    color: #01ff70;    text-decoration: underline;}a:hover, a:focus, a:active {    color: #2ecc40;}/* Code */pre {    font-family: "Courier New";    padding: .5rem;    background-color: #333;    padding: 0.5rem;    border-radius: 0.2rem;    font-size: 0.9rem;    color: #EEE;    overflow-x: auto;}.org-keyword{    color: #01ff70;}.org-rainbow-delimiters-depth-1{    color: #2ecc40;}.org-rainbow-delimiters-depth-2{    color: #01ff70;}/* Blockquotes */blockquote {    border-left: 3px solid #01ff70;    padding-left: 1rem;}li{    list-style-position: inside;}/* Tags */.tag{    margin-top: 0.5rem;    display: block;    color: white;    font-size: var(--font-size-xsmall);}.tag > span{		font-weight: 400;    font-size: 0.8rem;    background-color: #444;    text-transform: uppercase;    border-radius: 2px;    width: fit-content;    height: auto;    padding: 1px 5px;}/* Keywords */.todo{    color: #2ecc40;}.done{    color: #444;}/* Overflows */.outline-text-2, .outline-text-3, .outline-text-4{	  max-width: 100%;	  overflow-x: auto;}/* Table */tr:nth-child(even) {    background-color: #333;}th, td{    padding: 0.5rem;    text-align: center;}.underline{    text-decoration: underline;}img{    max-width: 100%;    height: auto;}
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#giving-up-sounds-repulsive">&ldquo;giving up sounds repulsive&rdquo;</a>
+<ul>
+<li><a href="#disrupting-this-silence-or-doing-what-the-germans-wont">disrupting this silence (or, <i>&ldquo;doing what the germans won&rsquo;t&rdquo;</i>)</a></li>
+<li><a href="#a-tale-we-must-all-finish">a tale we must all finish</a></li>
+<li><a href="#from-beneath">from beneath</a></li>
+<li><a href="#disneyland-sapphora-and-hotels-with-water-parks">disneyland, sapphora [&#x2026;] and hotels with water parks</a></li>
+<li><a href="#to-tie-everything-apart">to tie everything apart</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+<a href="index.html">baile</a>
+</p>
+<div id="outline-container-giving-up-sounds-repulsive" class="outline-2">
+<h2 id="giving-up-sounds-repulsive">&ldquo;giving up sounds repulsive&rdquo;</h2>
+<div class="outline-text-2" id="text-giving-up-sounds-repulsive">
+
+</div>
+<div id="outline-container-disrupting-this-silence-or-doing-what-the-germans-wont" class="outline-3">
+<h3 id="disrupting-this-silence-or-doing-what-the-germans-wont">disrupting this silence (or, <i>&ldquo;doing what the germans won&rsquo;t&rdquo;</i>)</h3>
+<div class="outline-text-3" id="text-disrupting-this-silence-or-doing-what-the-germans-wont">
+<p>
+To have written 5,795 words this month without reference to the conflict
+in Gaza feels absurd. This US-sanctioned slaughter is hard not to
+constantly have on your mind, especially when doing anything else
+borders on feeling immoral. To not write about Gaza would fail to
+capture what is beautiful yet possible whether it stems from worldwide
+solidarity, young people willing to do the bare minimum, or a class flag
+proudly flying over Limerick. This absence would also fail to capture
+the springs of solidarity and hate spurred on by the Israeli Occupation,
+giving us new ways to confirm or deny our respective humanity. Escapism
+clears the room of anything better, even if that&rsquo;s just analysis. This
+Genocide will and should remain unavoidable, necessitating messier
+paragraphs.
+</p>
+
+<p>
+To write about Palestine is to reveal your place in the world, with
+nobody being truly neutral. Clear lines have once again developed
+between <i>&rsquo;the West&rsquo;</i> and &rsquo;the Rest&rsquo;, a development reflected by media
+coverage and public discourse. In our case, the Free State government
+found itself wedged between <i>&rsquo;West&rsquo;</i> and <i>&rsquo;Wretched&rsquo;,</i> lagging behind
+their metropolitan cousins in their attempts to downplay Palestinian
+solidarity. While ARD and ZDF in Germany are free to
+<a href="https://www.jungewelt.de/artikel/462874.berichterstattung-zum-gazakrieg-journalistische-bankrotterkl%C3%A4rung.html?sstr=ARD%7CHamas">adjust
+their coverage</a> or insert bad takes into their equivalent to <i>&rsquo;Match of
+the Day&rsquo;</i>,
+<a href="https://twitter.com/RTE_PrimeTime/status/1712581729414738238">RTÉ are
+still letting the Zionists look bad on occasion</a>. Decades of solidarity
+and struggle have forced Martin and company to be subtle, sending out
+vague calls for peace between attempts at placating the US and Israel.
+We&rsquo;ve also seen sections of the far-right identifying with the Zionist
+state outright, with those claiming otherwise often being insecure about
+not being a settler. To not write about Palestine is to pretend that the
+Irish people are pathetic, doomed to implement themselves into the exact
+systems they once fought against.
+</p>
+
+<p>
+<a href="https://twitter.com/QuinlivanTD/status/1725892973454377433/photo/1">https://twitter.com/QuinlivanTD/status/1725892973454377433/photo/1</a>
+</p>
+
+<p>
+However, writing about this Genocide is impossible without writing about
+everything else. We must disrupt and expose each silence that brought us
+here, openly stating the racist and colonial nature of the Israeli
+state. To place children in a cage is a statement, and to live in sweet
+ignorance of said statement is pathetic. Like all forms of colonialism,
+Zionism necessitates a perception of the Palestinian people as
+perpetually <i>&ldquo;lesser&rdquo;</i>, devaluing their literature and culture in order
+to justify rape and pillage. Palestine is never allowed to speak for
+herself, with each attempt being met with brutal violence. <i>&ldquo;The most
+moral army in the world&rdquo;</i> doesn&rsquo;t offer vegan boots out of a love of
+animals, it just looks for any opportunity to depict Palestinians as
+being even lesser.
+</p>
+
+<p>
+The Irish people have stood strong in this struggle against
+dehumanisation, with our literature and language serving as an extended
+middle finger towards notions of a singular, &ldquo;civilised&rdquo; West. On
+account of our radical tradition, refusing to engage with Palestine&rsquo;s
+intellectual and political struggle for freedom is the ultimate form of
+abdication - making it very clear who actually places value in the words
+that they read, listen to, or learn. To write about Palestine is to
+care, and to care is to be free. This newsletter is actually about
+<i>&rsquo;Gaza Writes Back&rsquo;,</i> a collection of short stories edited by the late
+Refaat Alareer.
+</p>
+</div>
+</div>
+<div id="outline-container-a-tale-we-must-all-finish" class="outline-3">
+<h3 id="a-tale-we-must-all-finish">a tale we must all finish</h3>
+<div class="outline-text-3" id="text-a-tale-we-must-all-finish">
+<p>
+There&rsquo;s something utterly crushing in discovering an artist&rsquo;s true depth
+as their light starts to fade. These last few months have been awful in
+this regard, with the words of Shane MacGowan and Benjamin Zephaniah
+haunting a winter defined by death. Yet the sudden snuffing of Refaat
+Alareer&rsquo;s light and life cut deep, capturing the attention of the world.
+<a href="https://twitter.com/TomaiRua/status/1733871322474635280">Tomaí Ó
+Conghaile&rsquo;s thoughtful translation of <i>&rsquo;Más éigean dom an bás&rsquo;</i> forced
+this train of thought to cohere</a>, making utterly clear which lights had
+been extinguished so cowardly. Refaat was now just a tale, one we must
+all finish.
+</p>
+
+<p>
+<a href="https://twitter.com/TomaiRua/status/1733871322474635280">https://twitter.com/TomaiRua/status/1733871322474635280</a>
+</p>
+
+<p>
+It&rsquo;s not enough to depict Refaat as <i>just</i> a journalist, translator,
+scholar, or poet. It&rsquo;s certainly not enough to solely depict him through
+English either. Alareer&rsquo;s work expands on and blurs the lines between
+fiction and polemic - with his decision to write in English being
+pointed, yet deeply considered. Refaat is more than happy to use <i>an
+teanga iasachta</i> inconveniently, mirroring Pearse and Hyde in his choice
+to polemicise <i>at</i> instead of <i>with</i> the English-reading public. This is
+most blatantly seen in the introduction to <i>&rsquo;Gaza Strikes Back&rsquo;,</i> with
+the project being rooted in the wider view that <i>&ldquo;the notion of giving
+up, or surrendering to the occupation, [&#x2026;] sounds quite repulsive&rdquo;.</i>
+Refaat refused to accept any supposed inferiority, with Israel viewing
+the innate humanity of his work as an existential threat.
+</p>
+
+<p>
+Within <i>&rsquo;How Does She Stand&rsquo;,</i> Pearse finds himself pondering the legacy
+left by Wolfe Tone. Central to Pearse&rsquo;s perception of Tone is <i>&ldquo;an
+immense tenderness and charity&rdquo;,</i> with Tone&rsquo;s final sacrifice reflecting
+a deep love for his people:
+</p>
+
+<blockquote>
+<p>
+<i>Yes, this man could love well; and it was from such love as this that
+he exiled himself; which such love as this crushed in his faithful heart
+that he became a weary but indomitable ambassador to courts and camps,
+with the memory of such love as this, with the little hands of his
+children plucking at his heartstrings, that he lay down to die in that
+cell on Arbour Hill.</i>
+</p>
+</blockquote>
+
+<p>
+<i>&rsquo;Gaza Writes Back</i>&rsquo; **is a literal labour of love, with each story
+fuelled by forms of passion and sacrifice that are totally foreign to
+those controlling the drones. Alareer and Tone were willing to face
+<i>&ldquo;the high and sorrowful destiny of the heroes&rdquo;</i> not out of some
+barbaric irrationality, but instead, a level of love solely found
+amongst us &rsquo;barbarians&rsquo;.
+</p>
+</div>
+</div>
+<div id="outline-container-from-beneath" class="outline-3">
+<h3 id="from-beneath">from beneath</h3>
+<div class="outline-text-3" id="text-from-beneath">
+<p>
+When reading about each writer that contributed towards <i>&rsquo;Gaza Writes
+Back&rsquo;,</i> the daily horrors inherent to Israel&rsquo;s occupation become clear.
+Authors are largely young and female, <i>&ldquo;most if not all [&#x2026;] have never
+been to other places in Palestine&rdquo;,</i> and all face conditions that get in
+the way of their writing. As outlined in the collection&rsquo;s introduction:
+</p>
+
+<blockquote>
+<p>
+The lengthy political, economic, and intellectual siege that Israel has
+maintained around Gaza meant that, as they worked on their stories, all
+of our writers &#x2014; like every single person living in Gaza &#x2014; had to
+cope with the constant and debilitating structural violence of power
+cuts, isolation, unemployment, lack of basic goods, lack of books, lack
+of medicine and access to health care, extreme difficulty in traveling
+outside Gaza, and far too often pain, death, or the loss of loved ones.
+</p>
+</blockquote>
+
+<p>
+While it&rsquo;s genuinely impressive that any form of writing was possible in
+such conditions, what makes <i>&rsquo;Gaza Writes Back&rsquo;</i> worth reading is its
+depth, with deep levels of empathy and authenticity shaping each story.
+Our protagonists are almost constantly aware of those suffering,
+comparing their traumas with those worse off. This can be seen most
+blatantly in Rawan Yaghi&rsquo;s <i>&rsquo;From Beneath&rsquo;</i>, a story based around the
+bleak experience of bleeding to death following an Israeli airstrike.
+Despite everything, our protagonist finds himself wanting to help, even
+though he can&rsquo;t move a limb. This fundamental empathy fuels some of the
+best contributions towards this collection - with <i>&rsquo;Neverland</i>&rsquo; covering
+the experiences of a health worker who can&rsquo;t help but think about the
+children she treats, <i>‘House&rsquo;</i> discussing the morality of revenge, and
+<i>&rsquo;Scars&rsquo;</i> depicting **the struggles of parenthood during under
+occupation. <i>&rsquo;Gaza Writes Back&rsquo;</i> is an utterly <i>real</i> book, with its
+depth contrasting heavily with the two-dimensional depiction of the
+Palestinian people the West occupies themselves with.
+</p>
+
+<p>
+One of the most intriguing examples of this book&rsquo;s empathy is Nour
+Al-Sousi&rsquo;s <i>&rsquo;Canary&rsquo;</i>, a piece that alternates perspectives between a
+resistance fighter and an IDF soldier. This choice of plot is
+particularly brave for the author considering how tripe previous
+attempts at tackling it have been, with authors on the outside falling
+into the same tropes over and over. However, this story actually works
+due to Al-Sousi&rsquo;s experiences, with there being something uniquely
+fascinating in seeing how someone depicts the life and thought process
+of someone totally opposed to her existence - especially when you
+consider the fact that most people growing up in Gaza have likely never
+met an Israeli without uniform. Al-Sousi does what professional writers
+in Israel seem unwilling to do, raising depressing questions.
+</p>
+</div>
+</div>
+<div id="outline-container-disneyland-sapphora-and-hotels-with-water-parks" class="outline-3">
+<h3 id="disneyland-sapphora-and-hotels-with-water-parks">disneyland, sapphora [&#x2026;] and hotels with water parks</h3>
+<div class="outline-text-3" id="text-disneyland-sapphora-and-hotels-with-water-parks">
+<p>
+One of the most absurd aspects of colonialism is the extent to which
+those on the receiving end are stuck with the burden of conciliation,
+having to display a superhuman level of restraint to prove their
+humanity. In the same way that cultural colonisation forces our thoughts
+to be based around their occupiers, any discussion for a transition
+towards something new will always prioritise the interests of a
+colonising minority over everyone else. You can see this quite blatantly
+in discussions about reunification, with every aspect of our discourse
+solely being based around the whims of Unionists - even more so when
+they refuse to participate. A one-sided relationship develops, with
+those stuck on colonialism&rsquo;s receiving end being expected to bridge
+every divide they&rsquo;ve had forced onto them.
+</p>
+
+<p>
+It&rsquo;s hard not to start reading <i>&rsquo;Canary</i>&rsquo; through this lens, with
+Al-Sousi&rsquo;s depiction of someone <i>&ldquo;on the other side&rdquo;</i> contrasting
+heavily with the pure bile being posted by ardent Zionists. We&rsquo;ve seen
+Israeli soldiers
+<a href="https://apnews.com/article/israel-hamas-soldiers-gaza-viral-videos-idf-072894147302535cc9632863888e53a4">burn
+food supplies</a>,
+<a href="https://twitter.com/MarwaEl94317678/status/1740410681353023896">crack
+jokes about Arab women being <i>&ldquo;the sluttiest&rdquo;</i> while looking through
+personal belongings</a>, and
+<a href="https://twitter.com/incontextmedia/status/1730765626405249032">likely
+give themselves dysentery by playing with their shit in someone&rsquo;s
+house</a>. This reflects a wider dehumanisation endemic to Israeli
+culture, with local influencers
+<a href="https://twitter.com/QudsNen/status/1717463837308227755">bragging about
+still having running water</a> and
+<a href="https://www.tiktok.com/@fiaskill/video/7299196701850783022">looking
+forward to replacing the people of Gaza with <i>&ldquo;Disneyland, Sapphora,
+[&#x2026;] and hotels with water park&rdquo;</i></a>. One set of young people are able
+to depict an Israeli despite years of distance, the other seems more
+intent on making crass TikToks and
+<a href="https://www.haaretz.com/israel-news/2023-12-28/ty-article/.premium/tel-aviv-high-school-principal-faces-suspension-for-sympathizing-with-suffering-of-gazans/0000018c-b09c-db94-afbd-b0fd76a80000">harassing
+teachers for seeing Palestinians as human</a>. Those rambling on about
+<i>&ldquo;both sides&rdquo;</i> or the abstract need for <i>&ldquo;class unity&rdquo;</i> conveniantly
+fudge and ignore the extent of this hate, often on account of being
+culturally closer to those doing the settling. <i>&ldquo;Both sides&rdquo;</i> have never
+been equal, with one expected to do all the work necessary to solve a
+problem they didn&rsquo;t start.
+</p>
+
+<p>
+This isn&rsquo;t to say that unity is impossible, but instead that it first
+requires some level of mutual understanding. However, this concept is
+anathema to the colonial logic behind Zionism, with attempts to
+<i>&ldquo;civilise the civilised&rdquo;</i> generally going nowhere. Colonialism
+necessitates a division between the West and the Wretched, eventually
+leading to the dehumanisation and destruction of those unlucky enough to
+fall outside of the first category. Those supporting Israel&rsquo;s attacks on
+Gaza are unable to engage with the works of those like Refaat Alareer as
+they actively refuse to see them as human, and no short story or lecture
+could ever change that fact.
+</p>
+
+<p>
+However, it&rsquo;d be wrong to isolate this bleak outlook to Israel. This
+devaluation of Palestinian lives is inherent to the ways in which the
+West reports on and conceives this conflict - with the deaths of
+thousands of Palestinians generally being seen as equally (if not less)
+important than one or two undergraduates in America feeling
+uncomfortable. While a country like Germany may wax lyrical about their
+<i>&ldquo;Staatsräson&rdquo;,</i> it&rsquo;s no coincidence that their ardent support for
+Israel comes hand in hand with dogwhistles about migrants. Reading about
+Israel is disgusting as they represent the core of the West, a core
+that&rsquo;s more than accustomed to killing stories, languages, and the
+writers themselves. Rather than being some evil abberation, those
+looking to raze down the Gaza strip for Disneyland are the closest thing
+that the West has to true believers.
+</p>
+</div>
+</div>
+<div id="outline-container-to-tie-everything-apart" class="outline-3">
+<h3 id="to-tie-everything-apart">to tie everything apart</h3>
+<div class="outline-text-3" id="text-to-tie-everything-apart">
+<p>
+While this may be a depressing note to end the year on, falling into
+sheer doomerism is even worse than just doing nothing. Despite years of
+struggle and insurmountable odds, the Palestinian people are still brave
+enough to survive and write out of spite. Some of the most beautiful
+passages in <i>&rsquo;Gaza Writes Back&rsquo;</i> relate to this unceasing dedication to
+what Ó Cadhain terms as an <i>&ldquo;illogcial striving for the impossible&rdquo;,</i>
+with anything beyond standing up being long out of the question:
+</p>
+
+<blockquote>
+<p>
+<i>Between my father and his Land is an unbreakable bond. Between
+Palestinians and their land is an unbreakable bond. By uprooting plants
+and cutting trees continually, Israel tries to break that bond and
+impose its own rules of despair on Palestinians. By replanting their
+trees over and over again, Palestinians are rejecting Israel&rsquo;s rules.
+&ldquo;My land, my rules,&rdquo; says Dad.</i>
+</p>
+</blockquote>
+
+<p>
+We must learn from the dedication running through each page of this
+collection, being willing to create and take sacrifices <i>ar son na
+cúise.</i> We must reaffirm our deep solidarity with the people of
+Palestine, making it clear that the Irish nation stand in opposition to
+colonial plunder. We must continue learning to read, write, and think
+for ourselves - stepping out beyond the Anglosphere and engaging with
+more than just our deranged neighbours. We must live to tell Refaat&rsquo;s
+tale, ideally after Reconquest. <i>Athbhliain faoi mhaise daoibh go léir.</i>
+</p>
+
+<p>
+<b>fuaimrian na seachtaine:</b> jane remover - kodak moment
+</p>
+
+<p>
+Beidh orm rud éigin a scríobh faoi Jane Remover san athbhliain, go
+háirithe agus í ag dul ó neart go neart le gairid. Tháinig mé ar Jane
+mar gheall ar <i>&rsquo;Dariacore&rsquo;,</i> an tionscadal leath-magúil agus ró-&rsquo;ar
+líne&rsquo; a bhí aici i rith na paindéime. Is léir domsa go bhfuil Jane duine
+de na ceoltóirí &rsquo;Iar-Covid&rsquo; is tabhachtaí, rud a leiríonn an rian
+tochtmhar seo go paiteanta.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2023-12-31 Domh 00:00</p>
+<p class="author">Author: Ciarán Mac Aodha Bhuí</p>
+<p class="date">Created: 2025-06-10 Máirt 04:43</p>
+</div>
+</body>
+</html>

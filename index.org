@@ -1,4 +1,4 @@
-#+title: Index
+#+title: baile
 #+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
 #+OPTIONS: num:nil
 
@@ -8,4 +8,7 @@
 - Súiomh pearsanta
 - á thógáil fós...
 
-[[file:oppositionalisms.org][oppositionalisms]]
+** altanna a scríobh mé
+- [[file:giving up sounds repulsive.org][giving up sounds repulsive]]
+
+- [[file:oppositionalisms.org][oppositionalisms]]
