@@ -1,0 +1,238 @@
+* oppositionalisms
+:PROPERTIES:
+:CUSTOM_ID: oppositionalisms-draft-2
+:END:
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
+#+OPTIONS: num:nil
+
+[[https://web.archive.org/web/20230128090337mp_/https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe00ab1c-6bb5-4fd9-8c63-0e64f4f03ce3_681x371.jpeg]]
+
+A spectre is haunting Ireland - the spectre of our neighbours. If one
+looks at a majority of our cultural and political discourse, it often
+seems as if we never discuss anything beyond the one-sided relationship
+we share with the U.K and the U.S - alternating between obsessing over
+each respective neighbour and decrying their deep ignorance of our
+country and culture. This obsessive, unrequited relationship is seen
+constantly on Irish social media - we "ironically" scour the tabloids
+for every snippet of Prince Harry's autobiography and then shout at
+these papers for being unable to say our names. We end up providing
+constant running commentary on the lives of annoying people we nominally
+want to be independent of.
+
+The tone of this running commentary has always interested me, in part on
+account of it's oddly moralistic tone. It sometimes feels as if we
+subconsciously view acceptance from our colonisers as a reward we have
+earned due to our our collective investment and interest in the world
+they have built. Rather than actually wanting to take our own path, we
+want our revolution broadcast on the BBC - feeling the need for constant
+observation and approval by our respective masters. The second the
+actual nature of our colonial relationship seeps through the mouth of
+some ignorant politician or journalist, we collectively lose it,
+shouting down the online void in an attempt to redeem our earned
+respect. However, this constant offence seems surreal from a distance.
+We shouldn't feel shocked that those who destroyed our culture and
+language place very little value in these things - if anything we should
+be shocked about the extent to which we value theirs. This week I've set
+out to explore this one-sided relationship we are all haunted by, if
+anything so we can plan a future escape.
+
+** outer voice, inner voice
+:PROPERTIES:
+:CUSTOM_ID: outer-voice-inner-voice
+:END:
+To discuss the nature of our relationship to England and America is to
+discuss the question of language, something I have
+[[https://iarphunc.substack.com/p/ta-ga-le-gniomh][done]]
+[[https://iarphunc.substack.com/p/obair-fos-le-deanamh][quite]]
+[[https://rupture.ie/radio][a]]
+[[https://twitter.com/cornerspaeti/status/1604762386342232064][bit]].
+However, as I have limited my previous writings to the political sphere,
+I believe there's value in retreading this ground from a more explicitly
+cultural lens.
+
+Essential to any understanding of the link between languages and
+colonialism is /Decolonising the Mind/, a series of essays from Kenyan
+author Ngũgĩ wa Thiong'o. Within this book, wa Thiong'o aptly observes
+the dual character of language, arguing that languages serve not only as
+a mode of communication but also as "a carrier of culture". In his eyes,
+languages provide us with ways of seeing - transferring on certain
+values and attitudes to their speakers. Following on from this, the
+destruction of languages under colonisation serves as "the means of
+spiritual subjugation", leading to colonised peoples becoming alienated
+from themselves. In his words:
+
+#+begin_quote
+The colonial child was made to see the world and where he stands in it
+as seen and defined by or reflected in the culture of the language of
+imposition. And since those images are mostly passed on through orature
+and literature it meant the child would now only see the world as seen
+in the literature of his language of adoption. From the point of view of
+alienation, that is of seeing oneself from outside oneself as if one was
+another self, it does not matter that the imported literature carried
+the great humanist tradition of the best in Shakespeare, Goethe, Balzac,
+Tolstoy, Gorky, Brecht, Sholokhov, Dickens. The location of this great
+mirror of imagination was necessarily Europe and its history and culture
+and the rest of the universe was seen from that centre.
+
+#+end_quote
+
+In other words, colonisers are able to recenter the perceptions of the
+colonised through linguistic destruction - ensuring that their world and
+value system haunt the colonised and that attempts to imagine an
+alternate system never arise.
+
+One aspect of wa Thiong'o's work I feel is often ignored is the extent
+to which his definition of decolonisation is internationalist in nature.
+His ideal struggle is based more around colonised nations finding their
+own place in the world as opposed to these nations shutting themselves
+off. Rather than arguing for a return to a utopian monolingual past, wa
+Thiong'o asks why African authors can't take the words of Tolstoy, Marx,
+and Einstein and bring them into their respective languages. Instead of
+shying away from existing literature, wa Thiong'o argues for the
+reconquest of /"the rich humanist and democratic heritage in the
+struggles of other peoples"./ As opposed to seeking acceptance through
+effective use of their outer voices, wa Thiong'o argues that colonised
+peoples must struggle to maintain and restore their inner one.
+
+** accessible to everyone and everything
+:PROPERTIES:
+:CUSTOM_ID: accessible-to-everyone-and-everything
+:END:
+I think this dichotomy of inner and outer voices is particularly useful
+when analysing our one-sided relationship with the U.K and the U.S - a
+dichotomy starkly laid out by Olga Tokarczuk, and referenced by Ciarán Dunbar:
+
+#+begin_quote
+There are countries out there where people speak English. But not like
+us - we have our own languages hidden in our carry-on luggage, in our
+cosmetics bags, only ever using English when we travel, and then only in
+foreign countries, to foreign people. It's hard to imagine, but English
+is their real language! Oftentimes their only language. They don't have
+anything to fall back on or turn to in moments of doubt... They may be
+understood by anyone at any moment, whenever they open their
+mouths.[...] Wherever they are, people have unlimited access to them -
+they are accessible to everyone and everything!
+
+#+end_quote
+
+This perpetual accessibility manifests itself in multiple forms, with
+silly arguments on Twitter being one of the easiest to write about. If
+you've followed the outrage cycles inherent to the app, you've
+definitely seen an American or an English person get endlessly roasted
+for their ignorance on certain issues - an ignorance that is often
+proudly thrown into a conversation between Irish people discussing Irish
+topics. The lack of any real language barrier (and an overabundance of
+confidence in our neighbours) prevents us from being able to talk
+amongst ourselves, always being observed by (and always watching) those
+on the outside. An inability to talk amongst ourselves makes it harder
+for us to place ourselves in the world, with everywhere gradually
+morphing into a Diet Coke California.
+
+Another form this accessibility takes is cultural, with it being cheaper
+to import whatever media we consume than to create it. This is another
+area where the language question quite blatantly comes to the fore -
+similarly sized countries in Europe have more active cultural and
+literary scenes than us solely as it is harder for them to directly
+consume works from the cultural powerhouses of the U.K and the U.S. The
+lack of a language barrier has left Irish creatives with less space to
+exist and experiment, with smaller audiences and the logic of capital
+discouraging niche works that'd fail to reach a broad (if not), global
+audience. This economic pressure can be seen quite blatantly when we
+look at the literary sphere, as captured by Chris Beausang:
+
+#+begin_quote
+From a random-ish sample of 42 contemporary Irish writers, I found that
+they were represented by 9 agents working for 6 agencies, with one agent
+and one company representing just over 40% of all of them. All of these
+agencies were based in London and one agency also had premises in New
+York. One author was independent. So the sorts of channels of promotion
+and critical appraisal as Pascal Casanova would identify them are almost
+exclusively English or American and I would posit the loss of regional
+designation or historical orientation in contemporary Irish literature
+more generally, as something of a response to this state of affairs.
+
+#+end_quote
+
+In basic terms, a lack of cultural space means that Irish artists are
+discouraged from ever imagining anything beyond what is instantly
+successful and what is palatable to our neighbours.
+
+This accessibility also ensures cultural marginalisation, with this
+marginalisation arguably defining our existing spheres. While we can
+have our own regional mirrors of our neighbour's cultural output, these
+mirrors will always take second stage to the real thing - even if they
+nominally present themselves as being in opposition. These marginal
+alternatives are something you have to specifically opt into, an effort
+most people seem unwilling to take. To twist Pádraig Pearse's words, on
+some level we all prefer /"the real British thing to a provincial
+understudy",/ especially when the real deal is instantly accessible.
+While I feel uncool for saying this, I think this trend is seen most
+blatantly when we talk about football. While I enjoy following the
+League of Ireland, it shouldn't really surprise us that casual
+supporters sat at home gravitate towards the flashy, accessible excess
+of the Premier League. Following the League (or listening to local bands
+singing in accents in which they'd never speak) occasionally feels like
+a hipster choice, a niche consumer statement that will never scale
+upwards. It's hard to shout over your wealthier cousins, especially if
+you're shouting a similar message.
+
+In summary, the year and a half that I've spent mulling over the
+language question has brought me to a very direct conclusion - the
+widespread loss of the Irish language has left us culturally stunted.
+Our constant availability and engineered lack of a widespread inner
+voice have left us unable to escape our relationship with England, even
+if we are nominally opposed to it. We're prone to either fully immerse
+ourselves in this neighbouring culture or solely define ourselves by
+limply opposing it - with neither outcome being conductive to anything
+fresh. This argument (and this article) is not to demean what we
+currently have, but instead to point out how much we can gain from
+cultural and linguistic conquest. But what does this reconquest look
+like?
+
+** an sprioc atá uainn
+:PROPERTIES:
+:CUSTOM_ID: an-sprioc-atá-uainn
+:END:
+In his diary, poet Seán Ó Ríordáin set out to harshly explain the
+difference between writing in English and Irish. He mused:
+
+#+begin_quote
+/Ag cur síos ar Éirinn a bhíonn Béarla na hÉireann. Éire féin ag labhairt
+is ea an Ghaeilge. Ag faire ar Éirinn ón dtaobh amuigh a bhíonn an
+Béarla. Éire ag féachaint amach ar an saol is ea an Béarla. [...] Ag
+labhairt le Sasana agus leis na Stáit Aontaithe a bhíonn Béarla na
+hÉireann, á rá leo: féachaigí cad tá aimsithe agam - tá sé dochreidte -
+an rud is aite agus is ciotarúnta agus is rómánsaí dá bhfaca éinne
+riamh - Ireland. [...] Nuair a thagrann an Béarla don arm seo againne
+deir sí, /'the Irish Army',/ rud áitiúil. Deir an Ghaeilge 'an tArm' -
+rud daonna. Má phléann an Ghaeilge an tSín, beidh an plé Éireannach.
+Mura bpléann an Béarla (Béarla na hÉireann) cúrsaí na hÉireann, ní
+bheidh inti ach rud Sasanach./
+
+(Hiberno-English is describing Ireland. Ireland herself talking is
+Irish. English is watching Ireland from the outside. Irish is Ireland
+looking outwards at life. Hiberno-English is talking to England and
+America, saying to them: look at what I've found - it's incredible - the
+most queer, contrary, and romantic thing anyone's ever seen - Ireland.
+[...] When English references our army it says 'the Irish Army',
+something local. Irish says 'the Army' - something human. If Irish
+discusses China, the discussion will be Irish. If Hiberno-English
+doesn't discuss Irish affairs, it's nothing but an English thing.)
+#+end_quote
+
+While Seán was writing from the zealous perspective of a fresh convert
+(something I am also guilty of), I still think this difference he noted
+is worth discussing. Rather than depicting shallow stereotypes for an
+outside audience, there is a need for us to create art and literature
+that inspires internal conversation. As opposed to endlessly fighting
+online once our outer voice inevitably gets misinterpreted, there is a
+need for us to restore an inner one. Returning to wa Thiong'o, there is
+a need for us to unshackle ourselves from our colonial relationship and
+firmly root ourselves in the wider world - understanding who we are,
+where we come from, and how much we can gain from reconquest. In the
+crudest of words, we must stop believing that decolonisation will arrive
+in the form of a belated thumbs up or an extended apology video. We must
+also be aware that decolonisation won't solely arrive through the
+cultural either - especially in two partitioned statelets. If anything,
+decolonisation will mirror the words of Bobby Sands - with our children
+laughing and thinking about anything other than their neighbours.

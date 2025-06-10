@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-06-10 Máirt 03:54 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Ciarán Mac Aodha Bhuí" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style type="text/css">
+/* Base */html,body {    background-color: #222;    min-height: 100%;    line-height: 1.5;}body {    color: #fafafa;    font-family: "Courier New";}::selection {    background-color:  #2ecc40;    color: white;}/* Responsive content positioning */@media only screen and (min-width: 1020px) /* Large screens */{    body{        padding: 10vh 25vw;    }}@media only screen and (max-width: 1020px) and (min-width: 750px) /* Small screens */{    body{        padding: 5vh 10vw;    }}@media only screen and (max-width: 750px) /* Small screens */{    body{        padding: 2vh 5vw;    }}/* Headers */h1{font-size: 2.5rem;}h2{font-size: 1.7rem;}h1 > .subtitle, h3, h4, h5, h6{font-size: 1.3rem;}.title{    margin-bottom: 2.5rem;}/* Padding & Margin */* {margin: 0; padding: 0;}pre, blockquote, ul, ol, p, table{    margin: 1rem 0;}h1, h2{margin-top: 2rem; line-height: 2rem;}h3, h4, h5, h6{margin-top: 1rem;}/* Links  */a, a:visited {    color: #01ff70;    text-decoration: underline;}a:hover, a:focus, a:active {    color: #2ecc40;}/* Code */pre {    font-family: "Courier New";    padding: .5rem;    background-color: #333;    padding: 0.5rem;    border-radius: 0.2rem;    font-size: 0.9rem;    color: #EEE;    overflow-x: auto;}.org-keyword{    color: #01ff70;}.org-rainbow-delimiters-depth-1{    color: #2ecc40;}.org-rainbow-delimiters-depth-2{    color: #01ff70;}/* Blockquotes */blockquote {    border-left: 3px solid #01ff70;    padding-left: 1rem;}li{    list-style-position: inside;}/* Tags */.tag{    margin-top: 0.5rem;    display: block;    color: white;    font-size: var(--font-size-xsmall);}.tag > span{		font-weight: 400;    font-size: 0.8rem;    background-color: #444;    text-transform: uppercase;    border-radius: 2px;    width: fit-content;    height: auto;    padding: 1px 5px;}/* Keywords */.todo{    color: #2ecc40;}.done{    color: #444;}/* Overflows */.outline-text-2, .outline-text-3, .outline-text-4{	  max-width: 100%;	  overflow-x: auto;}/* Table */tr:nth-child(even) {    background-color: #333;}th, td{    padding: 0.5rem;    text-align: center;}.underline{    text-decoration: underline;}img{    max-width: 100%;    height: auto;}
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#oppositionalisms-draft-2">oppositionalisms</a>
+<ul>
+<li><a href="#outer-voice-inner-voice">outer voice, inner voice</a></li>
+<li><a href="#accessible-to-everyone-and-everything">accessible to everyone and everything</a></li>
+<li><a href="#an-sprioc-atá-uainn">an sprioc atá uainn</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-oppositionalisms-draft-2" class="outline-2">
+<h2 id="oppositionalisms-draft-2">oppositionalisms</h2>
+<div class="outline-text-2" id="text-oppositionalisms-draft-2">
+
+<div id="org546ce96" class="figure">
+<p><img src="https://web.archive.org/web/20230128090337mp_/https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe00ab1c-6bb5-4fd9-8c63-0e64f4f03ce3_681x371.jpeg" alt="https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe00ab1c-6bb5-4fd9-8c63-0e64f4f03ce3_681x371.jpeg" />
+</p>
+</div>
+
+<p>
+A spectre is haunting Ireland - the spectre of our neighbours. If one
+looks at a majority of our cultural and political discourse, it often
+seems as if we never discuss anything beyond the one-sided relationship
+we share with the U.K and the U.S - alternating between obsessing over
+each respective neighbour and decrying their deep ignorance of our
+country and culture. This obsessive, unrequited relationship is seen
+constantly on Irish social media - we &ldquo;ironically&rdquo; scour the tabloids
+for every snippet of Prince Harry&rsquo;s autobiography and then shout at
+these papers for being unable to say our names. We end up providing
+constant running commentary on the lives of annoying people we nominally
+want to be independent of.
+</p>
+
+<p>
+The tone of this running commentary has always interested me, in part on
+account of it&rsquo;s oddly moralistic tone. It sometimes feels as if we
+subconsciously view acceptance from our colonisers as a reward we have
+earned due to our our collective investment and interest in the world
+they have built. Rather than actually wanting to take our own path, we
+want our revolution broadcast on the BBC - feeling the need for constant
+observation and approval by our respective masters. The second the
+actual nature of our colonial relationship seeps through the mouth of
+some ignorant politician or journalist, we collectively lose it,
+shouting down the online void in an attempt to redeem our earned
+respect. However, this constant offence seems surreal from a distance.
+We shouldn&rsquo;t feel shocked that those who destroyed our culture and
+language place very little value in these things - if anything we should
+be shocked about the extent to which we value theirs. This week I&rsquo;ve set
+out to explore this one-sided relationship we are all haunted by, if
+anything so we can plan a future escape.
+</p>
+</div>
+<div id="outline-container-outer-voice-inner-voice" class="outline-3">
+<h3 id="outer-voice-inner-voice">outer voice, inner voice</h3>
+<div class="outline-text-3" id="text-outer-voice-inner-voice">
+<p>
+To discuss the nature of our relationship to England and America is to
+discuss the question of language, something I have
+<a href="https://iarphunc.substack.com/p/ta-ga-le-gniomh">done</a>
+<a href="https://iarphunc.substack.com/p/obair-fos-le-deanamh">quite</a>
+<a href="https://rupture.ie/radio">a</a>
+<a href="https://twitter.com/cornerspaeti/status/1604762386342232064">bit</a>.
+However, as I have limited my previous writings to the political sphere,
+I believe there&rsquo;s value in retreading this ground from a more explicitly
+cultural lens.
+</p>
+
+<p>
+Essential to any understanding of the link between languages and
+colonialism is <i>Decolonising the Mind</i>, a series of essays from Kenyan
+author Ngũgĩ wa Thiong&rsquo;o. Within this book, wa Thiong&rsquo;o aptly observes
+the dual character of language, arguing that languages serve not only as
+a mode of communication but also as &ldquo;a carrier of culture&rdquo;. In his eyes,
+languages provide us with ways of seeing - transferring on certain
+values and attitudes to their speakers. Following on from this, the
+destruction of languages under colonisation serves as &ldquo;the means of
+spiritual subjugation&rdquo;, leading to colonised peoples becoming alienated
+from themselves. In his words:
+</p>
+
+<blockquote>
+<p>
+The colonial child was made to see the world and where he stands in it
+as seen and defined by or reflected in the culture of the language of
+imposition. And since those images are mostly passed on through orature
+and literature it meant the child would now only see the world as seen
+in the literature of his language of adoption. From the point of view of
+alienation, that is of seeing oneself from outside oneself as if one was
+another self, it does not matter that the imported literature carried
+the great humanist tradition of the best in Shakespeare, Goethe, Balzac,
+Tolstoy, Gorky, Brecht, Sholokhov, Dickens. The location of this great
+mirror of imagination was necessarily Europe and its history and culture
+and the rest of the universe was seen from that centre.
+</p>
+</blockquote>
+
+<p>
+In other words, colonisers are able to recenter the perceptions of the
+colonised through linguistic destruction - ensuring that their world and
+value system haunt the colonised and that attempts to imagine an
+alternate system never arise.
+</p>
+
+<p>
+One aspect of wa Thiong&rsquo;o&rsquo;s work I feel is often ignored is the extent
+to which his definition of decolonisation is internationalist in nature.
+His ideal struggle is based more around colonised nations finding their
+own place in the world as opposed to these nations shutting themselves
+off. Rather than arguing for a return to a utopian monolingual past, wa
+Thiong&rsquo;o asks why African authors can&rsquo;t take the words of Tolstoy, Marx,
+and Einstein and bring them into their respective languages. Instead of
+shying away from existing literature, wa Thiong&rsquo;o argues for the
+reconquest of <i>&ldquo;the rich humanist and democratic heritage in the
+struggles of other peoples&rdquo;.</i> As opposed to seeking acceptance through
+effective use of their outer voices, wa Thiong&rsquo;o argues that colonised
+peoples must struggle to maintain and restore their inner one.
+</p>
+</div>
+</div>
+<div id="outline-container-accessible-to-everyone-and-everything" class="outline-3">
+<h3 id="accessible-to-everyone-and-everything">accessible to everyone and everything</h3>
+<div class="outline-text-3" id="text-accessible-to-everyone-and-everything">
+<p>
+I think this dichotomy of inner and outer voices is particularly useful
+when analysing our one-sided relationship with the U.K and the U.S - a
+dichotomy starkly laid out by Olga Tokarczuk, and referenced by Ciarán Dunbar:
+</p>
+
+<blockquote>
+<p>
+There are countries out there where people speak English. But not like
+us - we have our own languages hidden in our carry-on luggage, in our
+cosmetics bags, only ever using English when we travel, and then only in
+foreign countries, to foreign people. It&rsquo;s hard to imagine, but English
+is their real language! Oftentimes their only language. They don&rsquo;t have
+anything to fall back on or turn to in moments of doubt&#x2026; They may be
+understood by anyone at any moment, whenever they open their
+mouths.[&#x2026;] Wherever they are, people have unlimited access to them -
+they are accessible to everyone and everything!
+</p>
+</blockquote>
+
+<p>
+This perpetual accessibility manifests itself in multiple forms, with
+silly arguments on Twitter being one of the easiest to write about. If
+you&rsquo;ve followed the outrage cycles inherent to the app, you&rsquo;ve
+definitely seen an American or an English person get endlessly roasted
+for their ignorance on certain issues - an ignorance that is often
+proudly thrown into a conversation between Irish people discussing Irish
+topics. The lack of any real language barrier (and an overabundance of
+confidence in our neighbours) prevents us from being able to talk
+amongst ourselves, always being observed by (and always watching) those
+on the outside. An inability to talk amongst ourselves makes it harder
+for us to place ourselves in the world, with everywhere gradually
+morphing into a Diet Coke California.
+</p>
+
+<p>
+Another form this accessibility takes is cultural, with it being cheaper
+to import whatever media we consume than to create it. This is another
+area where the language question quite blatantly comes to the fore -
+similarly sized countries in Europe have more active cultural and
+literary scenes than us solely as it is harder for them to directly
+consume works from the cultural powerhouses of the U.K and the U.S. The
+lack of a language barrier has left Irish creatives with less space to
+exist and experiment, with smaller audiences and the logic of capital
+discouraging niche works that&rsquo;d fail to reach a broad (if not), global
+audience. This economic pressure can be seen quite blatantly when we
+look at the literary sphere, as captured by Chris Beausang:
+</p>
+
+<blockquote>
+<p>
+From a random-ish sample of 42 contemporary Irish writers, I found that
+they were represented by 9 agents working for 6 agencies, with one agent
+and one company representing just over 40% of all of them. All of these
+agencies were based in London and one agency also had premises in New
+York. One author was independent. So the sorts of channels of promotion
+and critical appraisal as Pascal Casanova would identify them are almost
+exclusively English or American and I would posit the loss of regional
+designation or historical orientation in contemporary Irish literature
+more generally, as something of a response to this state of affairs.
+</p>
+</blockquote>
+
+<p>
+In basic terms, a lack of cultural space means that Irish artists are
+discouraged from ever imagining anything beyond what is instantly
+successful and what is palatable to our neighbours.
+</p>
+
+<p>
+This accessibility also ensures cultural marginalisation, with this
+marginalisation arguably defining our existing spheres. While we can
+have our own regional mirrors of our neighbour&rsquo;s cultural output, these
+mirrors will always take second stage to the real thing - even if they
+nominally present themselves as being in opposition. These marginal
+alternatives are something you have to specifically opt into, an effort
+most people seem unwilling to take. To twist Pádraig Pearse&rsquo;s words, on
+some level we all prefer <i>&ldquo;the real British thing to a provincial
+understudy&rdquo;,</i> especially when the real deal is instantly accessible.
+While I feel uncool for saying this, I think this trend is seen most
+blatantly when we talk about football. While I enjoy following the
+League of Ireland, it shouldn&rsquo;t really surprise us that casual
+supporters sat at home gravitate towards the flashy, accessible excess
+of the Premier League. Following the League (or listening to local bands
+singing in accents in which they&rsquo;d never speak) occasionally feels like
+a hipster choice, a niche consumer statement that will never scale
+upwards. It&rsquo;s hard to shout over your wealthier cousins, especially if
+you&rsquo;re shouting a similar message.
+</p>
+
+<p>
+In summary, the year and a half that I&rsquo;ve spent mulling over the
+language question has brought me to a very direct conclusion - the
+widespread loss of the Irish language has left us culturally stunted.
+Our constant availability and engineered lack of a widespread inner
+voice have left us unable to escape our relationship with England, even
+if we are nominally opposed to it. We&rsquo;re prone to either fully immerse
+ourselves in this neighbouring culture or solely define ourselves by
+limply opposing it - with neither outcome being conductive to anything
+fresh. This argument (and this article) is not to demean what we
+currently have, but instead to point out how much we can gain from
+cultural and linguistic conquest. But what does this reconquest look
+like?
+</p>
+</div>
+</div>
+<div id="outline-container-an-sprioc-atá-uainn" class="outline-3">
+<h3 id="an-sprioc-atá-uainn">an sprioc atá uainn</h3>
+<div class="outline-text-3" id="text-an-sprioc-atá-uainn">
+<p>
+In his diary, poet Seán Ó Ríordáin set out to harshly explain the
+difference between writing in English and Irish. He mused:
+</p>
+
+<blockquote>
+<p>
+<i>Ag cur síos ar Éirinn a bhíonn Béarla na hÉireann. Éire féin ag labhairt
+is ea an Ghaeilge. Ag faire ar Éirinn ón dtaobh amuigh a bhíonn an
+Béarla. Éire ag féachaint amach ar an saol is ea an Béarla. [&#x2026;] Ag
+labhairt le Sasana agus leis na Stáit Aontaithe a bhíonn Béarla na
+hÉireann, á rá leo: féachaigí cad tá aimsithe agam - tá sé dochreidte -
+an rud is aite agus is ciotarúnta agus is rómánsaí dá bhfaca éinne
+riamh - Ireland. [&#x2026;] Nuair a thagrann an Béarla don arm seo againne
+deir sí, /&rsquo;the Irish Army&rsquo;,</i> rud áitiúil. Deir an Ghaeilge &rsquo;an tArm&rsquo; -
+rud daonna. Má phléann an Ghaeilge an tSín, beidh an plé Éireannach.
+Mura bpléann an Béarla (Béarla na hÉireann) cúrsaí na hÉireann, ní
+bheidh inti ach rud Sasanach./
+</p>
+
+<p>
+(Hiberno-English is describing Ireland. Ireland herself talking is
+Irish. English is watching Ireland from the outside. Irish is Ireland
+looking outwards at life. Hiberno-English is talking to England and
+America, saying to them: look at what I&rsquo;ve found - it&rsquo;s incredible - the
+most queer, contrary, and romantic thing anyone&rsquo;s ever seen - Ireland.
+[&#x2026;] When English references our army it says &rsquo;the Irish Army&rsquo;,
+something local. Irish says &rsquo;the Army&rsquo; - something human. If Irish
+discusses China, the discussion will be Irish. If Hiberno-English
+doesn&rsquo;t discuss Irish affairs, it&rsquo;s nothing but an English thing.)
+</p>
+</blockquote>
+
+<p>
+While Seán was writing from the zealous perspective of a fresh convert
+(something I am also guilty of), I still think this difference he noted
+is worth discussing. Rather than depicting shallow stereotypes for an
+outside audience, there is a need for us to create art and literature
+that inspires internal conversation. As opposed to endlessly fighting
+online once our outer voice inevitably gets misinterpreted, there is a
+need for us to restore an inner one. Returning to wa Thiong&rsquo;o, there is
+a need for us to unshackle ourselves from our colonial relationship and
+firmly root ourselves in the wider world - understanding who we are,
+where we come from, and how much we can gain from reconquest. In the
+crudest of words, we must stop believing that decolonisation will arrive
+in the form of a belated thumbs up or an extended apology video. We must
+also be aware that decolonisation won&rsquo;t solely arrive through the
+cultural either - especially in two partitioned statelets. If anything,
+decolonisation will mirror the words of Bobby Sands - with our children
+laughing and thinking about anything other than their neighbours.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ciarán Mac Aodha Bhuí</p>
+<p class="date">Created: 2025-06-10 Máirt 03:54</p>
+</div>
+</body>
+</html>
