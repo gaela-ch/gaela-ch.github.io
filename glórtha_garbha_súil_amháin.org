@@ -1,0 +1,91 @@
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
+#+OPTIONS: num:nil
+[[file:index.org][baile]]
+* glórtha garbha: súil amháin
+Feiceann tú an Ghaeilge agus an Ghaeltacht de réir mar atá siad agus tú
+ag éisteacht le 'Shammen', an mixtape nua ó Shúil Amháin agus Rob
+Mulhern. Léiríonn 'Shammen' na suáilcí agus duáilcí a bhaineann leis an
+teanga le cos amháin sa leabharlann agus cos amháin sna sráideanna - le
+meascán de rapcheol, filíocht ó bhéal, agus seantaifeadtaí TnaG. Tá cáil
+ar Shúil Amháin mar dhuine de na ceoltóirí Gaelacha is spéisiúla le
+gairid mar gheall ar an meascán seo, meascán a chothaigh sé ó 2021 i
+leith. Séideann féinmhuinín agus féin-achtáil trí rianta ar nós 'Lá
+Breá', 'Incantation of Féile-Flow Funk', agus 'Oíche Mhaith', rud a
+chuaigh i gcion orm nuair a thosaigh mé amach mar fhoghlaimeoir. Labhair
+mé leis an gcumadóir faoina chúlra féin, Death Grips, agus na spriocanna
+atá aige as seo amach.
+
+*IP: Ar mhaithe leis na léitheoirí gan taithí, déan cur síos ar 'Súil
+Amháin' mar thionscadal. Cén chaoi ar tháinig tú ar an ainm seo?* SA:
+Súil Amháin an leasainm a thugann mo chairde orm i mo bhaile dúchais.
+
+*IP: Tá sé deacair rud éigin a scríobh faoi na healaíona Gaeilge gan an
+teanga í féin a lua. Cén saghas caidrimh atá agat leis an Ghaeilge?* Is
+í mo bhé í. Ach tá an caidreamh casta. Fiafraí agus freagra atá i ngach
+véarsa liom a chuireann ar mo Shúil dom cén saghas caidrimh atá agam léi
+go fíreannach.
+
+*IP: Bhí tú gníomhach mar fhile agus d'fhoilsigh tú an leabhar 'Beatha
+Dhónaill Dhuibh' sular thosaigh tú Súil Amháin. Cad é a spreag thú i
+leith i leith an cheoil agus céard a d'fhoghlaim tú dá bharr?* Bhíos i
+gcónaí ag tógaint spreagadh as an gceol. Timpeall 2018 taibhsíodh dom
+(agus ábhairín ceann fé orm) ná rabhas ag léamh mórán filíochta níos
+mó - b'fhearr liom cluasáin a chur orm agus éisteacht le hiphop.
+Maireann mo dhánta anois ar fhoinn cheoil (fé mar a bhí fíor i dtaobh
+filíocht na Gaeilge a fhaightear sna lamhscríbhinní, táim obssessed leis
+an traidisiún sin) agus is fileata mo shaothar rap ná mo shaothar
+filíochta fén dtráth seo. Go deimhin, dúirt léirmheastóir amháin, agus
+smut den gceart aici, gur mó fé thionchar an rapcheoil ná litríocht na
+Gaeilge a bhí BDD!
+
+File mé, agus rapper leis. Bhraitheas fillte ar aigne linbh nuair a
+d'fhilleas ar an gceol agus go raibh mo theanga tagtha abhaile - go
+rabhas tagtha timpeall thar nais go dtí na véarsaí thurgnamhach a bhíodh
+ar siúl agam ar imlínte mo chóipleabhar meánscoile.... Tugann an ceol
+saoirse duit botúin agus drochGhaeilge a úsáid. Agus bíonn tú abalta
+teagmháil a dhéanamh le daoine na fuil léamh na teangan go maith acu.
+Bíonn meascán de chanúnachas, caint liteartha, Poncánachas agus an
+Ghaelscoilis im chuid amhrán. Fear mór turgnamh mé - fiú más locht é sin
+uaireanta! Níl aon dul eile agam - is ionann an stiúideo agus
+saotharlann domsa.
+
+*IP: Is léir gur imir roinnt ceoltóirí tionchar ort - ritheann Death
+Grips agus MF Doom liom, mar shampla. Cé hiad na ceoltóirí agus
+ealaíontóirí eile a spreag tú le dul i mbun gnímh agus i mbun
+taifeadta?* Rob Mulhern agus pé rud atá ar siúl i mótar mo charad
+Eoghan. Tá ceol fé thalamh Éireann dochreidte fé láthair - bhíos ag
+Féile na Gréine le déanaí agus ba scanrúil an seó tallainne é. Níl cliú
+agam really cad táim féin ag déanamh so pé rud atá cloiste agam inné
+beidh a rian ar an gceol a bheidh agam amárach. D'éisteoinn le na haon
+saghas ceoil agus le Súil Amháin níor mhaith liom an iomad tuisceana a
+bheith agam ar a bhfuilim a dhéanamh - tubchumadóireacht gan chosc.
+
+*IP: Léiríonn tú an ghné pholaitiúil a bhaineann leis an Ghaeilge go
+minic agus tú ar an maidhc - an streachailt ar son Scoil Dhún Chaoin mar
+shampla. Ar mhiste leat cur síos a dhéanamh ar an ghné seo?* Is miste,
+caillfead na deontaisí go léir má osclaím mo bhéal.
+
+*IP: D'eisigh tú an ceirnín 'Shammen' i gcomhar le Rob Mulhern le
+gairid. Céard a spreag an comhshaothar seo?* Is turas bóthair é a
+léiríonn don gcruinne cé sinn féin agus cér díbh sinn. Is beag rud atá
+chomh maith leis ar an margadh fé láthair cé gur beag aird atá ag meáin
+Bhéarla air go dtí seo - is cuma leis na meáin Bhéarla fé cheol
+comhaimseartha na Gaeltachta. Fair play do Rob as brí agus anam a chur
+isteach ann. RIP Aengus Friel, Diego Kissane agus ár gceann urraidh
+uasail Rónán.
+
+*IP: D'fhógair tú sa rian 'Sceartáin' go bhfuil tú "sick of all ye
+sceartáin tryna i gcónaí suck ma fuil". Cé hiad na sceartáin atá i
+gceist?* Sinn féinig (daoine).
+
+*IP: Chonacthas roinnt ealaíontóirí úra Gaelach ar nós IMLÉ agus Kneecap
+le gairid. An bhfuil aon chomhairle agat do dhaoine ag iarraidh rud
+éigean a dhéanamh trí mheán na Gaeilge?* Buail siar go dtí an
+Ghaeltacht. Cothaigh do thimpeallacht is do shamhlaíocht. Bí ionraic,
+ait agus fíor duit féin.
+
+*IP: Mar dheireadh, cad iad na spriocanna agat mar cheoltóir amach
+anseo.* Fanacht liobarnach.
+
+/[[file:%5Bsuilamhain.bandcamp.com/album/shammen%5D(https://suilamhain.bandcamp.com/album/shammen)][Is
+féidir 'Shammen' a cheannach ar Bandcamp.]]/
