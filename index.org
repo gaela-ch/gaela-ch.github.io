@@ -1,14 +1,28 @@
-#+title: baile
+#+title: 🟢 GAELA.CH
 #+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/raw/master/src/retro_dark/retro_dark.theme
-#+OPTIONS: num:nil
+#+OPTIONS: num:nil toc:nil
 
+** *ciarán mac aodha bhuí*
+scríbhneoir, iar-chraoltóir le ulfm, agus leath-gael. fós ag foghlaim, agus fós ag smaoineamh...
 
+ [[https:bsky.app/gaela.ch][bluesky]]
+[[https:github.com/floodntwrk][github]]
 
-* GAELA/CH
-- Súiomh pearsanta
-- á thógáil fós...
+* ✒️ scríbhneoireacht
+/altanna a scríobh mé.../
 
-** altanna a scríobh mé
+[[https://rupture.ie/articles/emissions-as-usual][emissions as usual? - rupture magazine]]
+
+[[https://rupture.ie/articles/ta-ga-le-gniomhhttps://rupture.ie/articles/ta-ga-le-gniomh][tá gá le gníomh - rupture magazine]]
+
+[[https://rupture.ie/articles/a-better-world-cup-is-possible][a better world (cup) is possible - rupture magazine]]
+
+[[https://rupture.ie/articles/obair-fs-le-danamh][obair fós le déanamh - rupture magazine]]
+
+** 🗂️ cartlann
+*** saothar meirgeach
+/sean-altanna a scríobh mé ar substack agus neocities idir 2020 agus 2023/
+
 - [[file:glórtha_garbha_súil_amháin.org][glórtha garbha: súil amháin]]
 
 - [[file:the same old themes.org][the same old theme(s)]]
