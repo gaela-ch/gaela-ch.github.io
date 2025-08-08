@@ -3,24 +3,32 @@
 #+OPTIONS: num:nil toc:nil
 
 ** *ciarán mac aodha bhuí*
-scríbhneoir, iar-chraoltóir le ulfm, agus leath-gael. fós ag foghlaim, agus fós ag smaoineamh...
+scríbhneoir, iar-chraoltóir le ulfm, agus leath-gael. ag iarraidh a bheith gaelach ar líne
 
- [[https:bsky.app/gaela.ch][bluesky]]
-[[https:github.com/floodntwrk][github]]
+- [[https://bsky.app/profile/gaela.ch][bluesky]]
+
+- [[https://github.com/floodntwrk][github]]
 
 * ✒️ scríbhneoireacht
 /altanna a scríobh mé.../
 
-[[https://rupture.ie/articles/emissions-as-usual][emissions as usual? - rupture magazine]]
+- [[https://rupture.ie/articles/emissions-as-usual][emissions as usual? - rupture magazine]]
 
-[[https://rupture.ie/articles/ta-ga-le-gniomhhttps://rupture.ie/articles/ta-ga-le-gniomh][tá gá le gníomh - rupture magazine]]
+- [[https://rupture.ie/articles/ta-ga-le-gniomhhttps://rupture.ie/articles/ta-ga-le-gniomh][tá gá le gníomh - rupture magazine]]
 
-[[https://rupture.ie/articles/a-better-world-cup-is-possible][a better world (cup) is possible - rupture magazine]]
+- [[https://rupture.ie/articles/a-better-world-cup-is-possible][a better world (cup) is possible - rupture magazine]]
 
-[[https://rupture.ie/articles/obair-fs-le-danamh][obair fós le déanamh - rupture magazine]]
+- [[https://rupture.ie/articles/obair-fs-le-danamh][obair fós le déanamh - rupture magazine]]
+
+* 📣 craoltóireacht
+** 📻️ ionadchoinneálaí (2024) - /clár píolota a rinne mé le ulfm/
+- [[https://www.mixcloud.com/ionadchoinnealai/ionadchoinne%C3%A1la%C3%AD/][ionadchoinneálaí 01 - sean-rianta amscaí le mc draoi gramadaí]]
+
+** 🎛️ cuartaíocht (2022-23) - /gaelainn bhriste, buillí chliste.../
+- [[https://www.mixcloud.com/ionadchoinnealai/cuarta%C3%ADocht-230322/][cuartaíocht 23.03.22]]
 
 ** 🗂️ cartlann
-*** saothar meirgeach
+*** 📝 saothar meirgeach
 /sean-altanna a scríobh mé ar substack agus neocities idir 2020 agus 2023/
 
 - [[file:glórtha_garbha_súil_amháin.org][glórtha garbha: súil amháin]]
